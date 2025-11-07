@@ -5,3 +5,6 @@ matplotlib
 osmnx
 networkx
 folium
+gymnasium
+tabulate
+tqdm
