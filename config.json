@@ -1,0 +1,28 @@
+
+{
+  "city": "Chandigarh, India",
+  "n_deliveries": 30,
+  "seed": 42,
+
+  "data_dir": "data/__generated__",
+  "model_dir": "models/saved",
+  "plots_dir": "visualization/plots",
+
+  "hyperparams": {
+    "batch_size": 128,
+    "gamma": 0.99,
+    "tau": 0.005
+  },
+
+  "dqn_old": {
+    "episodes": 500,
+    "lr": 1e-4,
+    "eps_decay": 1000
+  },
+
+  "dqn_improved": {
+    "episodes": 2000,
+    "lr": 5e-5,
+    "eps_decay": 2000
+  }
+}
