@@ -41,15 +41,6 @@ subject to visiting each delivery node exactly once.
 DQN learns an optimal policy $\pi^*(s) = \arg\max_a Q^*(s,a)$ through interaction with the environment.  
 The Bellman optimality equation governs updates:
 
-$$
-Q^*(s,a) = \mathbb{E}[r_t + \gamma \max_{a'} Q^*(s',a')]
-$$
-
-Training minimizes the temporal difference (TD) loss:
-
-$$
-L(\theta) = \mathbb{E}\left[\big(r_t + \gamma \max_{a'} Q_{\theta^-}(s',a') - Q_\theta(s,a)\big)^2\right]
-$$
 
 **Features:**
 - Experience replay for sample decorrelation  
